@@ -1,59 +1,44 @@
-.navbar-brand{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 45px;
-    color: #304438;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.navbar {
+    height: 10vh;
 }
-.btn{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 0;
-    transition: all ease-in .5s;
+#banner .container {
+    height: 70vh;
+    background: url(R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: aliceblue;
+
 }
-.btn-brand {
-    background-color: #304438;
-    color: #fff;
+
+#company {
+    padding: 50px 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
-.btn-brand :hover{
-    border:2px solid #304438;
-}
-.navbar .nav-link{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px; 
-    color:#304438;
-    text-transform: uppercase;
-}
-#banner {
-background: url('kr.jpg');
-height: 90vh;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-}
-#banner h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;  
-}
-#banner p {
-    font-size: 25px; 
-}
-section {
+
+#services {
     padding: 100px 0;
+
 }
-.card-img-top {
-    width: 50%;
+
+#services .container {
+    background-color: aqua;
+    height: 400px;
+    border-radius: 30px;
+    padding: 50px 50px 0 50px;
+
 }
+
+.card-img-top{
+    width: 35%;
+}
+
 .card {
-    border-radius: 0;
-    margin-top: 30px;
-    border: 3px solid #304438;
-    padding: 20px;
-}
-.card {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-#shesh h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px; 
+    min-height: 320px;
+    border-radius: 30px;
+    border: none;
 }
